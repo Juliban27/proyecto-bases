@@ -10,8 +10,8 @@ build/
 .eggs/
 *.egg
 
-# Base de datos (no subir la BD local — cada quien corre las migraciones)
-backend_app/db.sqlite3
+# Base de datos — incluida en el repo para facilitar reproducibilidad del proyecto
+# backend_app/db.sqlite3
 
 # Variables de entorno
 .env
