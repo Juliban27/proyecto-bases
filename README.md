@@ -221,6 +221,8 @@ cd proyecto-bases
 
 ### 2. Configurar el backend
 
+> **La base de datos (`db.sqlite3`) viene incluida en el repositorio** con datos de prueba ya cargados (espacios, tarifas, empleados y clientes). Solo necesitas aplicar las migraciones para asegurarte de que el esquema esté al día.
+
 ```bash
 # Crear entorno virtual
 python -m venv venv
@@ -236,9 +238,6 @@ pip install -r requirements.txt
 
 # Aplicar migraciones (crea tablas, triggers y vistas)
 python backend_app/manage.py migrate
-
-# Cargar datos de prueba
-python backend_app/manage.py loaddata datos_iniciales.json
 
 # Iniciar servidor backend
 python backend_app/manage.py runserver
