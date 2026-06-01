@@ -1,0 +1,16 @@
+from django.db import migrations, models
+
+
+class Migration(migrations.Migration):
+
+    dependencies = [
+        ('api', '0001_initial'),
+    ]
+
+    operations = [
+        migrations.AlterField(
+            model_name='cliente',
+            name='telefono',
+            field=models.CharField(max_length=20),
+        ),
+    ]

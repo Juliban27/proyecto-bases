@@ -1,0 +1,217 @@
+[
+{
+  "model": "api.espacio",
+  "pk": 1,
+  "fields": {
+    "codigo": "A1",
+    "estado": "Libre",
+    "tipo_ubicacion": "Cubierto"
+  }
+},
+{
+  "model": "api.espacio",
+  "pk": 2,
+  "fields": {
+    "codigo": "A2",
+    "estado": "Libre",
+    "tipo_ubicacion": "Cubierto"
+  }
+},
+{
+  "model": "api.espacio",
+  "pk": 3,
+  "fields": {
+    "codigo": "A3",
+    "estado": "Libre",
+    "tipo_ubicacion": "Cubierto"
+  }
+},
+{
+  "model": "api.espacio",
+  "pk": 4,
+  "fields": {
+    "codigo": "A4",
+    "estado": "Libre",
+    "tipo_ubicacion": "Cubierto"
+  }
+},
+{
+  "model": "api.espacio",
+  "pk": 5,
+  "fields": {
+    "codigo": "B1",
+    "estado": "Libre",
+    "tipo_ubicacion": "Descubierto"
+  }
+},
+{
+  "model": "api.espacio",
+  "pk": 6,
+  "fields": {
+    "codigo": "B2",
+    "estado": "Libre",
+    "tipo_ubicacion": "Descubierto"
+  }
+},
+{
+  "model": "api.espacio",
+  "pk": 7,
+  "fields": {
+    "codigo": "B3",
+    "estado": "Libre",
+    "tipo_ubicacion": "Descubierto"
+  }
+},
+{
+  "model": "api.espacio",
+  "pk": 8,
+  "fields": {
+    "codigo": "B4",
+    "estado": "Libre",
+    "tipo_ubicacion": "Descubierto"
+  }
+},
+{
+  "model": "api.espacio",
+  "pk": 9,
+  "fields": {
+    "codigo": "C1",
+    "estado": "Libre",
+    "tipo_ubicacion": "VIP"
+  }
+},
+{
+  "model": "api.espacio",
+  "pk": 10,
+  "fields": {
+    "codigo": "C2",
+    "estado": "Libre",
+    "tipo_ubicacion": "VIP"
+  }
+},
+{
+  "model": "api.espacio",
+  "pk": 11,
+  "fields": {
+    "codigo": "M1",
+    "estado": "Libre",
+    "tipo_ubicacion": "Motos"
+  }
+},
+{
+  "model": "api.espacio",
+  "pk": 12,
+  "fields": {
+    "codigo": "M2",
+    "estado": "Libre",
+    "tipo_ubicacion": "Motos"
+  }
+},
+{
+  "model": "api.tarifa",
+  "pk": 5,
+  "fields": {
+    "nombre": "Automóvil / Camioneta",
+    "valor": "120.00",
+    "unidad_tiempo": "minuto"
+  }
+},
+{
+  "model": "api.tarifa",
+  "pk": 6,
+  "fields": {
+    "nombre": "Motocicleta",
+    "valor": "60.00",
+    "unidad_tiempo": "minuto"
+  }
+},
+{
+  "model": "api.tarifa",
+  "pk": 7,
+  "fields": {
+    "nombre": "Día completo - Carro",
+    "valor": "50000.00",
+    "unidad_tiempo": "dia"
+  }
+},
+{
+  "model": "api.tarifa",
+  "pk": 8,
+  "fields": {
+    "nombre": "Día completo - Moto",
+    "valor": "25000.00",
+    "unidad_tiempo": "dia"
+  }
+},
+{
+  "model": "api.empleado",
+  "pk": 1,
+  "fields": {
+    "nombre": "Carlos Ramírez",
+    "rol": "Cajero"
+  }
+},
+{
+  "model": "api.empleado",
+  "pk": 2,
+  "fields": {
+    "nombre": "Laura Gómez",
+    "rol": "Supervisor"
+  }
+},
+{
+  "model": "api.empleado",
+  "pk": 3,
+  "fields": {
+    "nombre": "Pedro Torres",
+    "rol": "Vigilante"
+  }
+},
+{
+  "model": "api.cliente",
+  "pk": 1,
+  "fields": {
+    "nombre": "Ana Martínez",
+    "telefono": "3001234567",
+    "tipo_cliente": "Regular"
+  }
+},
+{
+  "model": "api.cliente",
+  "pk": 2,
+  "fields": {
+    "nombre": "Juan Pérez",
+    "telefono": "3109876543",
+    "tipo_cliente": "VIP"
+  }
+},
+{
+  "model": "api.cliente",
+  "pk": 3,
+  "fields": {
+    "nombre": "Prueba 2",
+    "telefono": "30000000",
+    "tipo_cliente": "VIP"
+  }
+},
+{
+  "model": "api.vehiculo",
+  "pk": "ABC123",
+  "fields": {
+    "tipo": "Automóvil",
+    "marca": "Toyota",
+    "color": "Blanco",
+    "id_cliente": 1
+  }
+},
+{
+  "model": "api.vehiculo",
+  "pk": "XYZ789",
+  "fields": {
+    "tipo": "Automóvil",
+    "marca": "Mazda",
+    "color": "Gris",
+    "id_cliente": 2
+  }
+}
+]
